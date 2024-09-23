@@ -8,3 +8,5 @@ Site
     addres
     map
 
+
+php artisan db:Seed

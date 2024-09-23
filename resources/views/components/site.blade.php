@@ -266,17 +266,17 @@
               <div class="social-links mt-3">
                 <ul class="d-flex list-unstyled gap-2">
                   <li>
-                    <a href="#" class="btn btn-outline-light">
+                    <a href="{{ $setting->facebook }}" class="btn btn-outline-light">
                       <svg width="16" height="16"><use xlink:href="#facebook"></use></svg>
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="btn btn-outline-light">
+                    <a href="{{ $setting->twitter }}" class="btn btn-outline-light">
                       <svg width="16" height="16"><use xlink:href="#twitter"></use></svg>
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="btn btn-outline-light">
+                    <a href="{{ $setting->youtube }}" class="btn btn-outline-light">
                       <svg width="16" height="16"><use xlink:href="#youtube"></use></svg>
                     </a>
                   </li>
