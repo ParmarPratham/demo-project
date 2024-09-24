@@ -233,6 +233,12 @@
           <span>Site Settings</span>
         </a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ route('admin.product.index') }}">
+          <i class="bi bi-grid"></i>
+          <span>Product</span>
+        </a>
+      </li>
     </ul>
 
   </aside><!-- End Sidebar-->
